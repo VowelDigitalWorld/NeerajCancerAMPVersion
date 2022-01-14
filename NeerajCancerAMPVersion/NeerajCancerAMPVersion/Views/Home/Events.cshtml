@@ -1,0 +1,309 @@
+﻿
+@{
+    ViewBag.Title = "Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="normal_bg subheader">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="subheader_content">
+                    <ul class="custom_flex breadcrumb">
+                        <li><a href="/Home/Index" class="text-decoration-none">Home</a></li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="events">
+    <section class="our-event bgc-thm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-center">
+                    <div class="head_title">
+                        <h1 class="text-white">HurryUp</h1>
+                    </div>
+                    <div class="head_title">
+                        <h3 class="text-white">
+                            Limited Slots Available<br>
+                            Ayurvedic Cancer Treatment.<br> All types of Cancer <br>No fees till Satisfaction
+                        </h3>
+                    </div>
+                    <div class="upcoming-event ulockd-flip-clock ulockd-mt50">
+                        <h4 class="nextevent text-white" id="timer" onload="updateTimer()"> </h4>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                    <div class="book_appointment">
+                        <a href="/Home/Index" class="white-btn text-decoration-none"> Book Appointment </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-post bgc-white">
+                        <div class="post-thumb">
+                            <img src="~/assets/images/social.jpg" class="img-fluid" alt="social">
+                        </div>
+                        <div class="bp-details pb-2">
+                            <h4 class="post-title mb-1">Our Upcoming Events</h4>
+                            <ul class="list-inline mb-0">
+                                <li><a href="#" class="text-decoration-none"><i class="fas fa-map-marked-alt"></i> Rishikesh</a></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="head_title text-center pt-2">
+            <h3>Listen to Our Cure Patients</h3>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/tDkl8RLjU5Y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/XclgNngs0L0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/9zw_MXHu24Y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/W99TC4LtMrI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/Ni1jPIdYl2U"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/5LulBX1mTmc"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/56dQE1OfM4A"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/86U3FcvzvuU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/1sRtdG9U0yo"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/jBf1FMjj1b0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/Zq_4NWf7IEo"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/gD_4rrFKquU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/evOg468vN_Y"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/rIMZu_I_dgY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/j5HF88ahSIE"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/pjpcWmXXtGI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/etaKzoB11rw"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/mWwOuXh9iXg"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/rFwljZ0ycrI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <div class="img-holder">
+                        <div class="inner">
+                            <iframe width="100%" height="236" src="https://www.youtube.com/embed/u_wfwlXKNdc"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
